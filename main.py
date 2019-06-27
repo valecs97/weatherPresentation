@@ -19,7 +19,7 @@ if 'main' in response:
     sky = response['weather'][0]['main']
     print("%.1f" % celsiusDegrees + " celsius degrees")
     print(sky)
-    print('\nHello there !')
+    print('\nHello there !!')
 else:
     print('Error in getting the weather, perhaps you didn\'t spell the city right')
     print('(1)You spelled : ' + city)
